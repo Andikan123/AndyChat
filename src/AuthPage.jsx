@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { auth } from './firebase'; // adjust path if needed
-import { onAuthStateChanged } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 import {
   createUserWithEmailAndPassword,
